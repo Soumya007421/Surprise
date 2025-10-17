@@ -35,7 +35,7 @@
   </style>
 </head>
 <body>
-  <h1>Tap to Get Your Funny Roast 😎</h1>
+  <h1>Tap to Get Your Special Gift 💌</h1>
   <button onclick="showRoast()">🔥 Show Me 🔥</button>
 
   <script>
