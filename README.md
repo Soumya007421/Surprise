@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Funny Code Roast 😂</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    button {
+      background-color: #ff0055;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.2s;
+    }
+    button:hover {
+      background-color: #ff3388;
+    }
+    h1 {
+      font-size: 26px;
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Tap to Get Your Funny Roast 😎</h1>
+  <button onclick="showRoast()">🔥 Show Me 🔥</button>
+
+  <script>
+    const roasts = [
+      "Bhai ye code ka matlab kuch nahi hai 😭",
+      "Computer bhi soch raha hai — ye kya likh diya tune!",
+      "Isme logic dhoondhne gaya tha, khud hi kho gaya 😂",
+      "Code chal gaya... par kaha gaya pata nahi 🤯",
+      "Tumhara code AI ko bhi depression de de 😅",
+      "Congratulations! Tumhe chutiya banaya gaya hai 🎉",
+      "Iss code ne toh compiler ko hi confuse kar diya 😵"
+    ];
+
+    function showRoast() {
+      const randomRoast = roasts[Math.floor(Math.random() * roasts.length)];
+      alert(randomRoast);
+    }
+  </script>
+</body>
+</html>
