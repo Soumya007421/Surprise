@@ -41,7 +41,7 @@
   <script>
     const roasts = [
     
-      "Congratulations! Tumhe chutiya banaya gaya hai 🎉"
+      "Padhle Dost Exam Abhi Khatam Nahi Hua Hai 🙂"
   
     ];
 
