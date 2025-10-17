@@ -40,13 +40,9 @@
 
   <script>
     const roasts = [
-      "Bhai ye code ka matlab kuch nahi hai 😭",
-      "Computer bhi soch raha hai — ye kya likh diya tune!",
-      "Isme logic dhoondhne gaya tha, khud hi kho gaya 😂",
-      "Code chal gaya... par kaha gaya pata nahi 🤯",
-      "Tumhara code AI ko bhi depression de de 😅",
-      "Congratulations! Tumhe chutiya banaya gaya hai 🎉",
-      "Iss code ne toh compiler ko hi confuse kar diya 😵"
+    
+      "Congratulations! Tumhe chutiya banaya gaya hai 🎉"
+  
     ];
 
     function showRoast() {
